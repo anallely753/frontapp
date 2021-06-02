@@ -35,7 +35,7 @@
 
 	p{
 		font-family: 'Space Mono', monospace;
-		font-size: 1rem;
+		font-size: .9rem;
 	}
 
 /* Navbar  */
@@ -68,12 +68,12 @@
 		width: 90%;
 	}
 	.home-landing h1{
-		padding: 0 1rem;
+		padding: 0 1.2rem;
 		margin-bottom: .5rem;
 	}
 	.home-landing p{
-		padding: 0 1rem;
-		margin-bottom: 2.5rem;
+		padding: 0 1.5rem;
+		margin-bottom: 1.5rem;
 		color: var(--dark-sec);
 	}
 	.home-landing_carousel img{
@@ -89,13 +89,16 @@
 	.home-cursos{
 		text-align: center;
 	}
-	.home-cursos h2::before{
-		content:"";
-	    position: absolute;
-	    bottom: -1rem;
-	    left: 0;
-	    left: calc(50% - 25px);
-	    border-top: 2px solid var(--amarillo);
-	    z-index: -1;
-	    width: 50px;
+	.home-cursos h2{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+	}
+	.home-cursos h2 span{
+		height: 5px;
+		width: 70px;
+	    border-top: 4px solid var(--amarillo);
+	    color: transparent;
+	    margin-top: .5rem;
 	}
