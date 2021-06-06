@@ -1,0 +1,195 @@
+/*X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px){ 
+
+	/* Textos */
+		h1{
+			font-size: 3.5rem
+		}
+		h2{
+			font-size: 2.5rem;
+		}
+
+		p{
+			font-size: 1.3rem;
+		}
+		button{
+			font-size: 1.3rem;
+		}
+		
+		/* Home/landing  */
+			.home-landing_welcome_texto{
+				margin-top: 1rem;
+			}
+			/* Home/landing */
+				.home-landing_welcome h1{
+					margin: .5rem 0 .8rem;
+				}
+				.home-landing_welcome_texto{
+					padding: 0;
+				}
+				.home-landing_welcome p{
+					margin-bottom: 2rem;
+				}
+				
+				.home-landing_welcome_texto h1, .home-landing_welcome_texto p{
+					padding: 0;
+				}
+				.home-landing_welcome img{
+					width: 50%;
+				}
+				.home-landing_carousel{
+					width: 100vw;
+					margin: 3rem 0;
+				}
+				.home-landing_carousel .carousel-item{
+					height: 6rem;
+				}
+}
+
+@media (orientation: landscape){
+	/* Textos */
+		h1{
+			font-size: 2rem
+		}
+		h2{
+			font-size: 1.6rem;
+		}
+
+		p{
+			font-size: .9rem;
+		}
+		button{
+			font-size: .9rem;
+		}
+
+	/* Home/landing  */
+		.home-landing_welcome_texto{
+			margin-top: 0;
+		}
+		/* Home/landing */
+			.home-landing_welcome h1{
+				margin: 0 0 .8rem;
+			}
+			.home-landing_welcome{
+				flex-direction: row-reverse;
+				padding: 1rem 2.5rem;
+			}
+			.home-landing_welcome_texto{
+				text-align: left;
+				padding: 0;
+				width: 55%;
+			}
+			.home-landing_welcome p{
+				margin-bottom: 1rem;
+			}
+			.home-landing_welcome_texto h1, .home-landing_welcome_texto p{
+				padding: 0;
+			}
+			.home-landing_welcome img{
+				width: 45%;
+			}
+			.home-landing_carousel .carousel-item{
+				height: 5rem;
+			}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	/* Textos */
+		h1{
+			font-size: 2.5rem
+		}
+		h2{
+			font-size: 1.8rem;
+		}
+
+		p{
+			font-size: 1rem;
+		}
+		button{
+			font-size: 1rem;
+		}
+		
+	/* Home/landing  */
+		.home-landing_welcome_texto{
+			margin-top: 1rem;
+		}
+		/* Home/landing */
+			.home-landing_welcome{
+				padding: 1rem 4rem;
+			}
+			.home-landing_welcome_texto{
+				padding: 0 0 0 .5rem;
+			}
+			.home-landing_carousel{
+				margin: 2rem 0;
+			}
+	
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+	/* Textos */
+		h1{
+			font-size: 3rem
+		}
+		h2{
+			font-size: 2rem;
+		}
+
+		p{
+			font-size: 1.1rem;
+		}
+		button{
+			font-size: 1rem;
+		}
+		
+	/* Home/landing  */
+		.home-landing_welcome_texto{
+			margin-top: 1rem;
+		}
+		/* Home/landing */
+			.home-landing_welcome{
+				padding: 1rem 5rem;
+			}
+			.home-landing_welcome_texto button{
+				margin-top: 1rem;
+			}
+
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+	/* Home/landing  */
+		.home-landing_welcome_texto{
+			margin-top: 3rem;
+		}
+		/* Home/landing */
+			.home-landing_welcome{
+				padding: 1rem 8rem;
+			}
+			.home-landing_welcome img{
+				width: 52%;
+			}
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+	/* Home/landing  */
+		.home-landing_welcome_texto{
+			margin-top: 4rem;
+		}
+		/* Home/landing */
+			.home-landing_welcome{
+				padding: 1rem 8rem;
+			}
+			.home-landing_welcome img{
+				width: 52%;
+			}
+
+}
