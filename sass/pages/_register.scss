@@ -1,0 +1,75 @@
+@import '../assets/colors';
+@import '../layout/navbar';
+
+/* REGISTER STYLES */
+.register__picture {
+	display: flex;
+	top: 75px;
+	right: 40px;
+	align-items: center;
+	position: relative;
+}
+.register__picture img{
+	filter: drop-shadow(-1px 15px 5px rgba(0, 0, 0, 0.233));
+}
+.register__picture::before {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: -1;
+	clip-path: circle(39.0% at 9% 75%);
+	background: $info;
+}
+.register__info {
+	position: relative;
+	top: 60px;
+	border: 1px solid rgba(0, 0, 0, 0.144);
+}
+.register__title::after {
+	content: "";
+	display: block;
+	width: 20%;
+	height: 4px;
+	background: $primary;
+	position: relative;
+	left: 40%;
+	margin: 15px 0px 35px 0px;
+}
+.register__input--text {
+	margin-bottom: 25px;
+	border-radius: 18px;
+}
+.register__signout::after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 1px;
+	position: relative;
+	top:30px;
+	background: rgba(0, 0, 0, 0.192);
+	box-shadow:  0 .5rem 1rem rgba(black, .15);
+}
+.btn-primary{
+	box-shadow:  0 .5rem 1rem rgba(black, .15);
+}
+.register__with {
+	padding: 20px 50px 0px;
+	margin: 5px 0px;
+	display: flex;
+	justify-content: center;
+	gap: 7%;
+}
+@media screen and (max-width: 768px){
+    :root{
+        --contact-columns: 1fr;
+        --contact-rows: max-content 1fr;
+        --clip: circle(76.6% at 54% 86%);
+		// --clip: circle(76.6% at 4% 82%);
+    }
+    
+	
+}

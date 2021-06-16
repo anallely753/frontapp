@@ -1,0 +1,10 @@
+@import '../assets/colors';
+// /* Botones */
+button{
+    border-radius: 32px;
+    border-style: none;
+    padding: .6rem 1.5rem;
+}
+.button-main{
+    background-color: $primary;
+}

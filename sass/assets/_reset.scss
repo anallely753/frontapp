@@ -1,0 +1,32 @@
+@import '../assets/typography';
+@import '../assets/colors';
+
+body{
+    background: rgb(186,205,255);
+    background: linear-gradient(180deg, rgba(186,205,255,1) 0%, rgba(255,255,255,1) 100%);
+    background-repeat: no-repeat;
+    font-family: $font-family-sec;
+}
+
+/* Textos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: $font-family-main;
+    font-weight: $main-weight;
+    color: $success;
+}
+h1{
+    font-size: $header-1;
+}
+h2{
+    font-size: $header-2;
+}
+
+p{
+    font-family: $font-family-sec;
+    font-size: $paragraph;
+}

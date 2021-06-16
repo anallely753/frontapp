@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa de Tecnología en Cómputo</title>
+    <link rel="stylesheet" href="sass/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/logos/PROTECO_logo_negro.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="register">
+            <form class="container">
+                <div class="row">
+                    <figure class="register__picture col-12 col-md-7 figure">
+                        <img src="img/ilustraciones/10 SCENE.svg" alt="img" class="d-block">
+                    </figure>
+                    <div class="register__info col-12 col-md-5 shadow-lg p-3 mb-5 bg-body">
+                        <h1 class="register__title h1 text-center">Inicia sesión</h1>
+                        <div class="register__input ml-3 mr-5">
+                            <input class="form-control register__input--text" type="text" placeholder="Nombre completo"
+                                aria-label="default input example">
+                        </div>
+                        <div class="register__input">
+                            <input class="form-control register__input--text" type="text" placeholder="Correo electrónico"
+                                aria-label="default input example">
+                        </div>
+                        <div class="register__input">
+                            <input type="password" placeholder="Contraseña" id="inputPassword5" class="form-control register__input--text"
+                                aria-describedby="passwordHelpBlock">
+                            <!-- <div id="passwordHelpBlock" class="form-text text-center">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit
+                            </div> -->
+                        </div>
+                        <div class="d-grid col-6 mx-auto mt-3 mb-4 register__signout">
+                            <button class="btn btn-primary" type="button">Crear Cuenta</button>
+                        </div>
+                        <div class="register__with">
+                            <img src="img/logos/icons8-google.svg" alt="register__google" id="register__logo--google">
+                            <img src="img/logos/icons8-facebook.svg" alt="register__fb" id="register__logo--fb">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</html>
